@@ -50,7 +50,7 @@ This MLOps project demonstrates:
 | CI/CD               | GitHub Actions              |
 | Version Control     | Git & GitHub                |
 | ML Framework        | Scikit-learn, Pandas, NumPy |
-| Web Framework       | Flask                       |
+| Web Framework       | Fast API                    |
 | Virtual Environment | Conda                       |
 
 ---
@@ -84,7 +84,7 @@ This MLOps project demonstrates:
                       Model Deployment (EC2)
                                │
                                ▼
-                      Web App (Flask + HTML)
+                      Web App (Fast + HTML)
 ```
 
 ---
@@ -186,7 +186,7 @@ This MLOps project demonstrates:
 
 ### 7️⃣ CI/CD Pipeline Setup
 
-* Add **Flask App** via `app.py` with routes `/` and `/train`.
+* Add **App** via `app.py` with routes `/` and `/train`.
 * Create `static` and `templates` folders for UI.
 * Setup **Docker**:
 
@@ -225,7 +225,7 @@ This MLOps project demonstrates:
 ✅ End-to-End ML Pipeline
 ✅ Automated Data Ingestion & Validation
 ✅ Model Training, Evaluation & Pushing to AWS S3
-✅ Dockerized Flask Application
+✅ Dockerized  Application
 ✅ Continuous Integration & Deployment with GitHub Actions
 ✅ Real-time Deployment on AWS EC2
 
